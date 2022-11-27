@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<title> MOVIE RECOMMENDO</title>
+
+<head>
+
+    <style>
+        .button {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .button2 {
+            background-color: #008CBA;
+        }
+
+        /* Blue */
+        .button3 {
+            background-color: #f44336;
+        }
+
+        /* Red */
+        .button4 {
+            background-color: #e7e7e7;
+            color: black;
+        }
+
+        /* Gray */
+        .button5 {
+            background-color: #555555;
+        }
+
+        /* Black */
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+</head>
+
+<body>
+
+    <body style="background-color: rgb(243,229, 171);"></body>
+
+    <button class="button" type="button" onclick="alert('Get ready to be scared!')">HORROR</button>
+    <button class="button button2" type="button" onclick="alert('Adam Sandler, who? ')">COMEDY</button>
+    <button class="button button3" type="button" onclick="alert('Watch some (un)predictable plots!')">ROMANCE</button>
+
+    </p>
+    <h1> Top 3 Movies</h1>
+
+    <div id="movies_button_container"></div>
+    <p style="font-family: cursive">Below you will find <u>THE BEST and ONLY MOVIES</u> you'll ever need to see in your
+        lifetime!!</p>
+    <p style="font-family: fantasy">Are you ready?</p>
+    <ol>
+        <b>
+            <li>The Notebook</li>
+        </b>
+        <p>
+            In 1940s South Carolina, mill worker Noah Calhoun (Ryan Gosling) and rich girl Allie (Rachel McAdams)
+            are desperately in love. But her parents don't approve. When Noah goes off to serve in World War II, it
+            seems to mark the end of their love affair. In the interim, Allie becomes involved with another…TAP TO READ
+            MORE</p>
+
+        <a
+            href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.seabrookisland.com%2Fnews-and-events%2Fnews%2Fwas-the-notebook-filmed-on-seabrook-island%2F&psig=AOvVaw2AE6MyH9UCu3i1m3RDGlTd&ust=1669591464685000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjYxoP_zPsCFQAAAAAdAAAAABAE">
+            <img src="TheNoteBook.jpeg" alt="">
+        </a>
+        <b>
+            <li>SING!</li>
+        </b>
+        According to Raising Children Network "Sing is fun to watch and is likely to be enjoyed by most of the family.
+        It's full of positive messages, great
+        music and beautiful animation. Some scenes might be too scary for children under four or five years, and we
+        recommend parental guidance for children up to the age of seven years."
+        <iframe width="500" height="300" src="https://www.youtube.com/watch?v=pHZneOidj9A&ab_channel=GreenPapaya"
+            frameborder="0"></iframe>
+        <b>
+            <li>Inside Out</li>
+            <p>2015 ‧ Family/Comedy ‧ 1h 35m
+            </p>
+            <img src="InsideOut.webp" alt="">
+        </b>
+        <img src="" alt="">
+    </ol>
+
+    <h1>Other Good Movies:</h1>
+    <ul>
+        <li>Me Before You</li>
+        <li>Parasite</li>
+        <li>Hatchiko</li>
+    </ul>
+    <!-- ... other HTML ... -->
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="MoviesButton.js"></script>
+
+    <script>
+        ReactDOM.render(<MoviesButton />, document.querySelector('.'))
+
+    </script>
+
+
+
+</body>
+
+
+
+</html>
